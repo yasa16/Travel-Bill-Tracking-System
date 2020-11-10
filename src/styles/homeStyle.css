@@ -1,0 +1,194 @@
+/*--------------------HEADER--------------------*/
+ul.menu{
+	/*background-color:#80ccff;*/
+	list-style-type: none; /*remove bullets*/
+	overflow: hidden;
+	float: right;
+}
+
+li.menu{
+	color:black;
+	float:left;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+li a{
+	display : block; /*starts with a new line and take whole width*/
+	padding : 5px 20px;
+	text-align : center;
+	color : black;
+	text-decoration : none; /*removes the underline part of the texts*/
+	font-family : Times New Roman;
+	font-size : 22px;
+	transition: 0.6s ease;
+}
+ 
+li a:hover{
+	/*color : #000;*/
+	color: white;
+	background-color: #ccebff;
+}
+
+.header{
+	background-image: url("../images/header12.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	background-position : center;
+	background-repeat: no-repeat;
+}
+
+.headerlogo{
+	/*padding:5px 50px;*/
+	padding-top:40px;
+	padding-left:20px;
+}
+
+.addUser{
+	padding:20px;
+	float:right;
+	overflow:auto;
+	transition:0.6s;
+}
+
+
+
+
+
+/*--------------------OTHER--------------------*/
+
+div.left{
+	float: left;
+}
+
+div.right{
+	float:right;
+}
+
+.clearfix{
+	overflow:auto;
+}
+
+/*--------------------MAIN IMAGE--------------------*/
+
+div.maindiv{
+	width: 100%;
+	height: 500px;
+}
+
+
+div.mainImage{
+	float: left;
+	width: 89%;
+	height: 500px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+div.imageButtons{
+	width: 100%;
+	padding-top: 10px;
+}
+
+.buttonImg{
+	padding-right: 25px;
+	/*text-align: center;*/
+	border-style: none;
+	background-color: white;
+	font-size: 50px;
+}
+
+/*--------------------ADVERTISEMENT--------------------*/
+
+
+div.ad{
+	float: left;
+	width: 10%;
+	height: 100%;
+	padding-left: 12px;
+}
+
+/*--------------------BOTTOM CARDS--------------------*/
+
+div.bottomCard{
+	width: 100%;
+	height: 350px;
+}
+
+div.card{
+	width: 20%;
+	height: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	float: left;
+	margin-left: 50px;
+	outline: 0px;
+}
+
+p.topic{
+	text-align: center;
+	background-color: black;
+	font-size: 30px;
+	color: white;
+	font-family: calibri;
+}
+
+p.description{
+	font-family: calibri;
+	font-size: medium;
+	text-align: center;
+}
+
+/*------------------------------------------------------*/
+
+.more{
+	text-decoration: none;
+	background-color: #33cc33;
+	width: 10%;
+	padding: 5px;
+	color: black;
+	font-family: calibri;
+	border-radius: 25px;
+	font-size: 20px;
+	padding: 5px;
+}
+
+div a:hover {
+	background-color: #adebad;
+	transition: 0.5s ease;
+}
+
+
+/*-----------------------FOOTER-------------------------*/
+
+.footerlogo{
+	padding-right:5px;
+}
+
+
+
+p.footer{
+	text-align: center;
+	width: 100%;
+	font-size: small;
+}
+
+.footerNav{
+	float: left;
+	padding: 1% 5%;
+	width: 10%;
+	text-align: center;
+	text-decoration: none; /*removes the underline effect of links*/
+	transition: 0.6s;
+	font-size: 18px;
+}
+
+footer a:hover{
+	color: grey;
+	background-color: #ccebff;
+}
+
+.iconpadding{
+	padding:10px;
+}
+
+

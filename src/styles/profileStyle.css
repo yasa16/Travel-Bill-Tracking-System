@@ -1,0 +1,168 @@
+/*--------------------HEADER--------------------*/
+ul.menu{
+	/*background-color:#80ccff;*/
+	list-style-type: none; /*remove bullets*/
+	overflow: hidden;
+	float: right;
+}
+
+li.menu{
+	color:black;
+	float:left;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+li a{
+	display : block; /*starts with a new line and take whole width*/
+	padding : 5px 20px;
+	text-align : center;
+	color : black;
+	text-decoration : none; /*removes the underline part of the texts*/
+	font-family : Times New Roman;
+	font-size : 22px;
+	transition: 0.6s ease;
+}
+ 
+li a:hover{
+	/*color : #000;*/
+	color: white;
+	background-color: #ccebff;
+}
+
+.header{
+	background-image: url("../images/header12.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	background-position : center;
+	background-repeat: no-repeat;
+}
+
+.headerlogo{
+	/*padding:5px 50px;*/
+	padding-top:40px;
+	padding-left:20px;
+}
+
+.addUser{
+	padding:20px;
+	float:right;
+	overflow:auto;
+	transition:0.6s;
+}
+
+/*------------------------BODY----------------------------*/
+
+.welcome{
+	font-size: 30px;
+	font-family: calibri;
+}
+
+.right{
+	float: right;
+}
+
+div.mainDiv{
+	width: 100%;
+	height: 400px;
+	margin-top: 50px;
+}
+
+
+div.ad{
+	float: left;
+	width: 10%;
+	height: 100%;
+	padding-left: 25px;
+	margin-right: 50px;
+}
+
+div.newPost{
+	width: 60%;
+	float: left;	
+}
+
+div.user{
+	width: 20%;
+	float: left;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+}
+
+div.userImage{
+	float: right;
+	padding: 10px;
+}
+
+.edit{
+	text-decoration: none;
+	font-family: calibri;
+	font-size: medium;
+}
+
+div.posts{
+	width: 100%;
+	height: 400px;
+}
+
+div.subposts{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 30%;
+	height: 400px;
+	float: left;
+	padding: 20px;
+}
+
+p.topic{
+	text-align: center;
+	background-color: black;
+	font-size: 30px;
+	color: white;
+	font-family: calibri;
+}
+
+p.dateTime{
+	border-top: 25px;
+	width: 20%;
+	background-color: black;
+	color: white;
+}
+/*-----------------------FOOTER-------------------------*/
+
+.footerlogo{
+	padding-right:5px;
+}
+
+
+
+p.footer{
+	text-align: center;
+	width: 100%;
+	font-size: small;
+}
+
+.footerNav{
+	float: left;
+	padding: 1% 5%;
+	width: 10%;
+	text-align: center;
+	text-decoration: none; /*removes the underline effect of links*/
+	transition: 0.6s;
+	font-size: 18px;
+}
+
+footer a:hover{
+	color: grey;
+	background-color: #ccebff;
+}
+
+.iconpadding{
+	padding:10px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,149 @@
+/*--------------------HEADER--------------------*/
+ul.menu{
+	/*background-color:#80ccff;*/
+	list-style-type: none; /*remove bullets*/
+	overflow: hidden;
+	float: right;
+}
+
+li.menu{
+	color:black;
+	float:left;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+li a{
+	display : block; /*starts with a new line and take whole width*/
+	padding : 5px 20px;
+	text-align : center;
+	color : black;
+	text-decoration : none; /*removes the underline part of the texts*/
+	font-family : Times New Roman;
+	font-size : 22px;
+	transition: 0.6s ease;
+}
+ 
+li a:hover{
+	/*color : #000;*/
+	color: white;
+	background-color: #ccebff;
+}
+
+.header{
+	background-image: url("../images/header12.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	background-position : center;
+	background-repeat: no-repeat;
+}
+
+.headerlogo{
+	/*padding:5px 50px;*/
+	padding-top:40px;
+	padding-left:20px;
+}
+
+.addUser{
+	padding:20px;
+	float:right;
+	overflow:auto;
+	transition:0.6s;
+}
+
+
+
+
+
+
+
+
+/*body{
+	
+	 margin:0;
+     padding:0;
+     background:url(../images/forgot2.jpg);
+	 background-size:100%;   */
+
+	
+}
+#no{
+	
+	width: 200px;
+	height:20px;
+	border:none;
+	border-radius:3px;
+    outline: 0;
+    padding: 5px;
+	
+}
+.deco{
+	
+	padding: 4px;
+	background-color: #FFCBA4;
+	color: #571B7E;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 100%;
+	height: 400px;
+	
+}
+
+h1{
+	color:black;
+	font-family: Arial Black;
+	
+}
+h3{
+	
+	font-family: Trebuchet MS;
+	
+}
+#sub{
+	
+	width:70px;
+	font-family:Comic Sans MS;
+	background:  #C12267  ;
+	color: white;
+	border-radius:5px;
+	padding:4px;
+}
+
+
+
+
+
+
+/*-----------------------FOOTER-------------------------*/
+
+.footerlogo{
+	padding-right:5px;
+}
+
+
+
+p.footer{
+	text-align: center;
+	width: 100%;
+	font-size: small;
+}
+
+.footerNav{
+	float: left;
+	padding: 1% 5%;
+	width: 10%;
+	text-align: center;
+	text-decoration: none; /*removes the underline effect of links*/
+	transition: 0.6s;
+	font-size: 18px;
+}
+
+footer a:hover{
+	color: grey;
+	background-color: #ccebff;
+}
+
+.iconpadding{
+	padding:10px;
+}

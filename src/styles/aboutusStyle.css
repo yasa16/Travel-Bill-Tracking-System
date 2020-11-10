@@ -1,0 +1,239 @@
+/*--------------------HEADER--------------------*/
+ul.menu{
+	/*background-color:#80ccff;*/
+	list-style-type: none; /*remove bullets*/
+	overflow: hidden;
+	float: right;
+}
+
+li.menu{
+	color:black;
+	float:left;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+li a{
+	display : block; /*starts with a new line and take whole width*/
+	padding : 5px 20px;
+	text-align : center;
+	color : black;
+	text-decoration : none; /*removes the underline part of the texts*/
+	font-family : Times New Roman;
+	font-size : 22px;
+	transition: 0.6s ease;
+}
+ 
+li a:hover{
+	/*color : #000;*/
+	color: white;
+	background-color: #ccebff;
+}
+
+.header{
+	background-image: url("../images/header12.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	background-position : center;
+	background-repeat: no-repeat;
+}
+
+.headerlogo{
+	/*padding:5px 50px;*/
+	padding-top:40px;
+	padding-left:20px;
+}
+
+.addUser{
+	padding:20px;
+	float:right;
+	overflow:auto;
+	transition:0.6s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat";
+}
+
+h2{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase; 
+  border-left:auto;
+  border-right:auto;
+  padding-bottom: 10px;
+}
+
+h3{
+	font-size: 25px;
+    text-align: center;
+	padding-bottom: 10px;	
+}
+
+#mission{
+	text-align: center;
+	color:#003300;
+	font-weight: bold;
+	font-size:20px;
+}
+
+.about_site{
+	text-align:center;	
+	padding-bottom: 10px;
+	font-family: calibri;
+}
+
+#team{
+  background: #f1f1f1;
+  text-align: center;
+
+}
+.inner_width{
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+  color: #333;
+  overflow: hidden;
+}
+#team h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 4px solid;
+  padding-bottom: 10px;
+}
+.persons{
+  float: left;
+  width: calc(100% / 3);
+  overflow: hidden;
+  padding: 40px 0;
+  transition: 0.4s;
+}
+.persons:hover{
+  background: #ddd;
+}
+.persons img{
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+}
+.name{
+  margin: 16px 0;
+  font-size:20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.des{
+  font-style: italic;
+  font-weight: bold;
+  color: #3498db;
+}
+
+.description{
+	text-align:center;
+}
+
+.travel_photo {
+  display: inline-block;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right:20px;
+}
+
+.travel_photo img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+  margin-top:auto;  
+} 
+
+#trip_photo {
+  float: left;
+}
+
+
+
+
+
+
+
+
+/*-----------------------FOOTER-------------------------*/
+
+.footerlogo{
+	padding-right:5px;
+}
+
+
+
+p.footer{
+	text-align: center;
+	width: 100%;
+	font-size: small;
+}
+
+.footerNav{
+	float: left;
+	padding: 1% 5%;
+	width: 10%;
+	text-align: center;
+	text-decoration: none; /*removes the underline effect of links*/
+	transition: 0.6s;
+	font-size: 18px;
+}
+
+footer a:hover{
+	color: grey;
+	background-color: #ccebff;
+}
+
+.iconpadding{
+	padding:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

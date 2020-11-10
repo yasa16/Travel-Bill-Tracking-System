@@ -1,0 +1,254 @@
+div.trip1{
+	margin-left:200px;
+	margin-right:200px;
+	margin-bottom:200px;
+}
+table.trips td{
+    border: 1px solid lightgray;
+    border-collapse:normal;
+    padding: 5px;
+    text-align: center;
+	font-family:calibri;
+	
+}
+
+
+div.photo{
+	margin-left:80px;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+
+
+
+
+
+
+
+
+body{
+
+     margin:0;
+     padding:0;
+     /*background:url(../images/oo.jpg);*/
+	 background-size:100%;
+    
+
+
+}
+.loginad{
+	
+	     width:500px;
+	     height: 540px; 
+		 background: rgb(100,190,190)  ;
+		 color:white;
+		 top:50%;
+		 left:50%;
+		 position: absolute;
+		 transform: translate(-50%,-50%);
+		 box-sizing: border-box;
+		 padding: 70px 30px;
+		 font-family:Trebuchet MS;
+		 
+		 
+		}
+.avatar	{
+	
+	width: 100px;
+	height:100px;
+    border-radius: 50%; 
+    position: absolute; 
+	top: -50px;
+	left: calc(50% - 50px);
+	
+}	
+h1{
+	
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+	
+}	
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight:bold;
+	
+}	
+.loginad input{
+	width: 100%;
+	margin-bottom: 20px;
+	
+	
+	}	
+
+.loginad input[type="text"],input[type="password"]
+{
+	  border: none;
+	  border-bottom: 1px solid white;
+	  background: transparent;
+      outline: none;
+       height: 40px;
+       color: white;
+	   font-size: 16px;
+}
+.loginad input[type="submit"]
+{
+	
+	
+	    border: none;
+		outline: none;
+		height: 40px;
+		background: white;
+		color: black;
+		font-size: 18px;
+		border-radius: 20px;
+		
+}
+.loginad input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #85C1E9; 
+	color: white;
+	
+}
+.loginad a{
+	
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 20px;
+	color: white;
+	
+	
+	
+}
+.loginad a:hover
+{
+	
+	color:#85C1E9 ;
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+/*--------------------HEADER--------------------*/
+ul.menu{
+	/*background-color:#80ccff;*/
+	list-style-type: none; /*remove bullets*/
+	overflow: hidden;
+	float: right;
+}
+
+li.menu{
+	color:black;
+	float:left;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+li a{
+	display : block; /*starts with a new line and take whole width*/
+	padding : 5px 20px;
+	text-align : center;
+	color : black;
+	text-decoration : none; /*removes the underline part of the texts*/
+	font-family : Times New Roman;
+	font-size : 22px;
+	transition: 0.6s ease;
+}
+ 
+li a:hover{
+	/*color : #000;*/
+	color: white;
+	background-color: #ccebff;
+}
+
+.header{
+	background-image: url("../images/header12.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	background-position : center;
+	background-repeat: no-repeat;
+}
+
+.headerlogo{
+	/*padding:5px 50px;*/
+	padding-top:40px;
+	padding-left:20px;
+}
+
+.addUser{
+	padding:20px;
+	float:right;
+	overflow:auto;
+	transition:0.6s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------FOOTER-------------------------*/
+
+.footerlogo{
+	padding-right:5px;
+}
+
+
+
+p.footer{
+	text-align: center;
+	width: 100%;
+	font-size: small;
+}
+
+.footerNav{
+	float: left;
+	padding: 1% 5%;
+	width: 10%;
+	text-align: center;
+	text-decoration: none; /*removes the underline effect of links*/
+	transition: 0.6s;
+	font-size: 18px;
+}
+
+footer a:hover{
+	color: grey;
+	background-color: #ccebff;
+}
+
+.iconpadding{
+	padding:10px;
+}
+

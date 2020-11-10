@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="js/myscriptad.js">
+	</script>
+	<title>Admin login</title>
+	<link rel="stylesheet"type="text/css" href="styles/style.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style>
+	 body{
+		background-color:rgb(0,175,150);
+		}
+    </style>
+</head>
+<body>
+	<div class="loginad">
+		<img src="images/avatarA.png" class="avatar">
+		<h1> Login Here</h1>
+		<form action="admin.html" method="POST" onsubmit="return checkingPwd()">
+			      <p>Username</p>
+				  <input type="text" name="Admin" id="id" placeholder=" Enter Username" required> 
+				  <p>Password</p>
+				  <input type="password" name="pwd" id="pwdad" placeholder="Enter Password" required><br><br><br><br>
+				  <input type="submit" id="sub" value="Login"> <br>
+				  <a href="forgot.html"> Forgot your Password?</a>
+	    </form>
+	</div>
+</body>
+</html>

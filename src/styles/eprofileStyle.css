@@ -1,0 +1,82 @@
+
+/*------------------------BODY----------------------------*/
+
+.welcome{
+	font-size: 30px;
+	font-family: calibri;
+}
+
+.right{
+	float: auto;
+}
+
+div.mainDiv{
+	width: 100%;
+	height: 400px;
+	margin-top: 50px;
+}
+
+
+div.ad{
+	float: left;
+	width: 10%;
+	height: 100%;
+	padding-left: 25px;
+	margin-right: 50px;
+}
+
+div.newPost{
+	width: 60%;
+	float: left;
+}
+
+div.user{
+	width: 20%;
+	float: left;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+}
+
+div.userImage{
+	float: right;
+	padding-right: 100px;
+}
+
+.edit{
+	text-decoration: none;
+	font-family: calibri;
+	font-size: medium;
+}
+
+div.posts{
+	width: 100%;
+	height: 400px;
+}
+
+div.subposts{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 30%;
+	height: 400px;
+	float: left;
+	padding: 20px;
+}
+
+p.topic{
+	text-align: center;
+	background-color: black;
+	font-size: 30px;
+	color: white;
+	font-family: calibri;
+}
+
+p.dateTime{
+	border-top: 25px;
+	width: 20%;
+	background-color: black;
+	color: white;
+}
+
+
+
+
+
+

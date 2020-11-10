@@ -1,0 +1,219 @@
+h1 
+{
+  font-family:monospace;
+  font-size: 50px;
+  color:#00c48d; 
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  outline: 3px solid white;
+  outline-offset: .25em;
+  display: inline-block;
+  margin: 0.25em 0 0.5em;
+  
+
+}
+
+h2 
+{
+  color:#00c48d;
+  font-size: 40px;
+  margin-bottom: 0.5em;
+}
+
+
+
+.main 
+{
+  background-color:black;
+  background-image: url();
+  background-blend-mode: multiply;
+  background-size: cover;
+  height: 50vh;
+  padding: 1em;
+  color: white;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.backgroundbody
+{
+     background-color: black;
+    color:white;
+    
+}
+.faqboxs {
+  padding: 12vh 0;
+  text-align:center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+
+
+.faqbox {
+  flex-basis: 30%;
+}
+
+.afterfaq {
+  background-size: cover;
+  padding: 10vh 0;
+  color:white;
+  display: flex;
+  justify-content:space-around;
+}
+
+.afterfaqtext {
+  flex-basis: 100%;
+  padding: 0 2em;
+  flex-basis: 50%;
+  
+}
+
+
+
+form
+{
+    background-color:rgba(0,0,0,0);
+    border: none;
+    
+}
+
+input
+{
+    background:black;
+    color: white;
+}
+
+textarea
+{
+    background:black;
+    color: white;
+    
+}
+button
+{
+    color: white;
+    padding: 20px 32px;
+    font-size: 16px;
+    background:rgba(0,0,0,0);
+    border:1%;
+    border-radius: 4px;
+    margin-top: 30px;
+    
+    transition-duration: 2.0s;
+}
+button:hover
+{
+    background-color:#00c48d;
+}
+
+/* All styles for header and footer start from here */
+ul.menu{
+	/*background-color:#80ccff;*/
+	list-style-type: none; /*remove bullets*/
+	overflow: hidden;
+	float: right;
+	
+}
+
+li.menu{
+	color:black;
+	float:left;
+	padding-left: 20px;
+}
+
+li a{
+	display : block; /*starts with a new line and take whole width*/
+	padding : 5px 20px;
+	text-align : center;
+	color : black;
+	text-decoration : none; /*removes the underline part of the texts*/
+	font-family : Times New Roman;
+	font-size : 22px;
+	transition: 0.6s ease;
+}
+ 
+li a:hover{
+	/*color : #000;*/
+	color: white;
+	background-color: #ccebff;
+}
+
+div.left{
+	float: left;
+}
+
+div.right{
+	float:right;
+}
+
+.clearfix{
+	overflow:auto;
+}
+
+.iconpadding{
+	padding:10px;
+}
+
+.header{
+	background-image: url("../images/header12.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	background-position : center;
+	background-repeat: no-repeat;
+}
+
+.headerlogo{
+	/*padding:5px 50px;*/
+	padding-top:20px;
+	padding-left:20px;
+}
+
+.footerlogo{
+	padding-right:5px;
+}
+
+.addUser{
+	padding:20px;
+	float:right;
+	overflow:auto;
+	transition:0.6s;
+}
+
+p.footer{
+	text-align: center;
+	width: 100%;
+	font-size: small;
+}
+
+.footerNav{
+	float: left;
+	padding: 1% 5%;
+	width: 10%;
+	text-align: center;
+	text-decoration: none; /*removes the underline effect of links*/
+	transition: 0.6s;
+	font-size: 18px;
+}
+
+footer a:hover{
+	color: grey;
+	background-color: #ccebff;
+}
+
+/* All styles for header and footer end here */
+
+
+
+
+
+
+
+
+
+
+
